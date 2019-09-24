@@ -3,4 +3,6 @@ I wrote a custom view for [Chur](https://play.google.com/store/apps/details?id=c
 
 It allows you to set several properties to show a ranking and it looks like the gif below:
 
-![](screen_shot.png)
+![](screen_shot0.png)
+
+![](screen_shot1.png)
