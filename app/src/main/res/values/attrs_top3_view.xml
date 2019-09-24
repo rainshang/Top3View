@@ -1,0 +1,23 @@
+<!--
+  ~ Copyright (c) 2019.
+  ~ Created by Ethan at 7/2/19 1:49 PM
+  -->
+
+<resources>
+    <declare-styleable name="Top3View">
+        <attr name="color2nd" format="color|reference" />
+        <attr name="avatarUrl2nd" format="string|reference" />
+        <attr name="name2nd" format="string|reference" />
+        <attr name="cps2nd" format="float|reference" />
+        <attr name="startColor1st" format="color|reference" />
+        <attr name="endColor1st" format="color|reference" />
+        <attr name="avatarUrl1st" format="string|reference" />
+        <attr name="name1st" format="string|reference" />
+        <attr name="cps1st" format="float|reference" />
+        <attr name="color3rd" format="color|reference" />
+        <attr name="avatarUrl3rd" format="string|reference" />
+        <attr name="name3rd" format="string|reference" />
+        <attr name="cps3rd" format="float|reference" />
+        <attr name="shadowColor" format="color|reference" />
+    </declare-styleable>
+</resources>

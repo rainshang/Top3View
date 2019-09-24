@@ -1,0 +1,9 @@
+<!--
+  ~ Copyright (c) 2019.
+  ~ Created by Ethan at 7/3/19 11:22 AM
+  -->
+
+<vector android:height="8dp" android:viewportHeight="31"
+    android:viewportWidth="32" android:width="8dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffff" android:pathData="M14.86,0L16.01,0C17.74,3.36 19.3,6.81 21,10.18C24.67,10.71 28.33,11.25 31.99,11.83L32,11.06L32,11.87C29.41,14.59 26.66,17.13 24.04,19.81C24.7,23.54 25.25,27.28 25.96,31L25.83,31C22.53,29.29 19.28,27.49 16,25.76C12.75,27.5 9.5,29.22 6.27,30.98L7.91,31L6.06,31C6.74,27.28 7.3,23.54 7.97,19.82C5.36,17.13 2.59,14.59 0,11.88L0,11.8C3.67,11.26 7.34,10.72 11.01,10.17C12.67,6.79 14.3,3.39 15.95,0.01L14.86,0Z"/>
+</vector>

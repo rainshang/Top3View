@@ -1,0 +1,278 @@
+<!--
+  ~ Copyright (c) 2019.
+  ~ Created by Ethan at 7/2/19 1:49 PM
+  -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <LinearLayout
+        android:id="@+id/top3_left_rect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@id/top3_mid_rect"
+        app:layout_constraintRight_toLeftOf="@id/top3_mid_rect"
+        tools:background="#00ffff"
+        tools:layout_height="97dp"
+        tools:layout_marginBottom="15dp"
+        tools:layout_width="97dp">
+
+        <TextView
+            android:id="@+id/top3_left_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            tools:text="Lerrys Lion" />
+
+        <TextView
+            android:id="@+id/top3_left_cps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            tools:text="123.5" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2.5dp"
+                app:srcCompat="@drawable/ic_leaderboard_star" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2.5dp"
+                app:srcCompat="@drawable/ic_leaderboard_star" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/top3_left_circle_big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/top3_left_rect"
+        app:layout_constraintLeft_toLeftOf="@id/top3_left_rect"
+        app:layout_constraintRight_toRightOf="@id/top3_left_rect"
+        tools:background="#ffff00"
+        tools:layout_height="103.7dp"
+        tools:layout_marginBottom="46dp"
+        tools:layout_width="103.7dp">
+
+        <ImageView
+            android:id="@+id/top3_left_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/top3_left_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="2"
+        android:textColor="@android:color/white"
+        android:textSize="16.7sp"
+        app:layout_constraintBottom_toBottomOf="@id/top3_left_rect"
+        app:layout_constraintLeft_toLeftOf="@id/top3_left_rect"
+        app:layout_constraintRight_toRightOf="@id/top3_left_rect"
+        tools:background="#ff00ff"
+        tools:layout_height="27dp"
+        tools:layout_marginBottom="130dp"
+        tools:layout_width="27dp" />
+
+    <LinearLayout
+        android:id="@+id/top3_right_rect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@id/top3_mid_rect"
+        app:layout_constraintLeft_toRightOf="@id/top3_mid_rect"
+        tools:background="#00ffff"
+        tools:layout_height="97dp"
+        tools:layout_marginBottom="15dp"
+        tools:layout_width="97dp">
+
+        <TextView
+            android:id="@+id/top3_right_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            tools:text="Lerrys Lion" />
+
+        <TextView
+            android:id="@+id/top3_right_cps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            tools:text="123.5" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/ic_leaderboard_star" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/top3_right_circle_big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/top3_right_rect"
+        app:layout_constraintLeft_toLeftOf="@id/top3_right_rect"
+        app:layout_constraintRight_toRightOf="@id/top3_right_rect"
+        tools:background="#ffff00"
+        tools:layout_height="103.7dp"
+        tools:layout_marginBottom="46dp"
+        tools:layout_width="103.7dp">
+
+        <ImageView
+            android:id="@+id/top3_right_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/top3_right_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="3"
+        android:textColor="@android:color/white"
+        android:textSize="16.7sp"
+        app:layout_constraintBottom_toBottomOf="@id/top3_right_rect"
+        app:layout_constraintLeft_toLeftOf="@id/top3_right_rect"
+        app:layout_constraintRight_toRightOf="@id/top3_right_rect"
+        tools:background="#ff00ff"
+        tools:layout_height="27dp"
+        tools:layout_marginBottom="130dp"
+        tools:layout_width="27dp" />
+
+    <LinearLayout
+        android:id="@+id/top3_mid_rect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:background="#0000ff"
+        tools:layout_height="139.7dp"
+        tools:layout_width="110dp">
+
+        <TextView
+            android:id="@+id/top3_mid_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="3"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            tools:text="Lerrys Lion" />
+
+        <TextView
+            android:id="@+id/top3_mid_cps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:text="123.5" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    app:srcCompat="@drawable/ic_leaderboard_star" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    app:srcCompat="@drawable/ic_leaderboard_star" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_leaderboard_star" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/top3_mid_circle_big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/top3_mid_rect"
+        app:layout_constraintLeft_toLeftOf="@id/top3_mid_rect"
+        app:layout_constraintRight_toRightOf="@id/top3_mid_rect"
+        tools:background="#00ddaa"
+        tools:layout_height="136dp"
+        tools:layout_marginBottom="80dp"
+        tools:layout_width="136dp">
+
+        <ImageView
+            android:id="@+id/top3_mid_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/top3_mid_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@id/top3_mid_rect"
+        app:layout_constraintLeft_toLeftOf="@id/top3_mid_rect"
+        app:layout_constraintRight_toRightOf="@id/top3_mid_rect"
+        tools:background="#ff00ff"
+        tools:layout_height="35dp"
+        tools:layout_marginBottom="194dp"
+        tools:layout_width="35dp" />
+
+</merge>

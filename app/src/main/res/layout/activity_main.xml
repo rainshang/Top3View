@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.xyx.top3view.Top3View
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        app:avatarUrl1st="https://giantbomb1.cbsistatic.com/uploads/original/9/90467/2696820-lion.png"
+        app:avatarUrl2nd="https://gamepedia.cursecdn.com/dota2_gamepedia/5/51/Sniper_icon.png"
+        app:avatarUrl3rd="http://cdn.dota2.com/apps/dota2/images/heroes/nevermore_vert.jpg?v=4661763"
+        app:color2nd="@android:color/holo_red_light"
+        app:cps1st="5000"
+        app:endColor1st="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:name1st="Lion"
+        app:name2nd="Sniper"
+        app:name3rd="SF"
+        app:startColor1st="@android:color/white" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
